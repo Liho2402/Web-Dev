@@ -1,0 +1,227 @@
+.body{
+    direction: ltr;
+}
+
+.main{
+    padding: 20px;
+    margin:250px;
+    width:980;
+    height:496px;
+    padding-bottom: 200px;
+    align-self: center;
+    margin-bottom: 800px;
+    margin-top: 0px;
+}
+
+.text h2{
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    line-height: 32px;
+    width: 500px;
+    margin: 0px;
+    font-weight:400;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.work-space{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px 0;
+    position: relative;
+    width: 980px;
+    
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Центрируем содержимое */
+    height: 100%;
+    padding-bottom: 90px;
+}
+
+.logo{
+    padding: 0 0 24px;
+}
+
+#face{
+    height: 106px;
+    margin: -28px;
+}
+
+form{
+    display: block;
+    margin-top: 0em;
+    unicode-bidi: isolate;
+}
+.res_card{
+    display: inline-block;
+    vertical-align: top;
+    
+}
+
+.fill-form{
+    display: block;
+    unicode-bidi: isolate;
+    height: 456px;
+    width: 396px;
+}
+
+.res_form .fields{
+    
+    padding: 6px;
+    font-size: 17px;
+    width: 364px;
+}
+
+.res_form .fields .email{
+    border-radius: 6px;
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 360px;
+}
+
+.registration{
+    text-align: center;
+    align-items: center;
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, .1), 0px 8px 16px rgba(0, 0, 0, .1);
+    box-sizing: border-box;
+    margin: 40px 0 0;
+    padding: 20px 0 28px;
+    width: 396px;
+}
+
+.fields{
+    display: inline-block;
+    margin: auto;
+    padding: 6px 0;
+}
+
+
+/* .res_form .fields .email .passw{
+    border-radius: 6px;
+} */
+
+.inputtext{
+    border: 1px solid #ccd0d5;
+    border-radius: 6px;
+    margin: 0;
+    padding: 3px;
+}
+
+.passw{
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 360px;
+}
+
+
+
+.s2{
+    background: none;
+    border: 0px;
+    box-shadow: none;
+    float: left;
+    font-size: 17px;
+    padding: 0px;
+    width: 300px;
+}
+
+.but{
+    padding: 6px;
+}
+
+.ent{
+    background-color: #0866ff;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 332px;
+}
+
+.text_col{
+    color: #fff
+}
+
+.set_box{
+    box-sizing: content-box;
+}
+
+.forget_pass{
+    margin-top: 16px;
+}
+
+a{
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    color: #0866ff;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.line{
+    align-items: center;
+    border-bottom: 1px solid #dadde1;
+    display: flex;
+    margin: 20px 16px;
+    text-align: center;
+}
+
+.new_acc{
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 48px;
+    padding: 0 16px;
+    background-color: #42b72a;
+    display: inline-block;
+}
+
+#login{
+    padding-top: 72px;
+    padding-bottom: 112px;
+    margin-bottom: 500px;
+    margin: 0px;
+    height: 536px;
+}
+
+.footer{
+    padding-top: 20px;
+}
+
+#pageFooter{
+    color: #737373;
+    margin: 0 auto;
+    width: 980px;
+}
+
+.ullist{
+    padding-top: 8px;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+}
