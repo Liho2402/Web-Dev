@@ -1,7 +1,9 @@
 export interface ProductLocation {
-    id:  number, 
+    id: number,
     name: string,
-    photo: string,
-    availableUnits: number,
     rating: number,
+    photo: string,
+    linkKaspi: string,
+    descrip: string,
+    delivery: boolean,
 }
