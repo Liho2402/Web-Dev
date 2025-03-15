@@ -18,7 +18,8 @@ export class HomeComponent {
     "rating": 5,
     "descrip": "Мышь проводная Logitech G102 LightSync позволяет играть с максимальной эффективностью",
     "delivery": true,
-    "linkKaspi": "https://kaspi.kz/shop/p/logitech-g102-lightsync-chernyi-100956618/?c=750000000"
+    "linkKaspi": "https://kaspi.kz/shop/p/logitech-g102-lightsync-chernyi-100956618/?c=750000000",
+    "likes": 0
   },
   {
     "id": 1,
@@ -27,7 +28,8 @@ export class HomeComponent {
     "rating": 4.5,
     "descrip": "Предназначен для удобной переноски и защиты устройства",
     "delivery": true,
-    "linkKaspi": "https://kaspi.kz/shop/p/sumka-portcase-9011-chernyi-108895248/?c=750000000"
+    "linkKaspi": "https://kaspi.kz/shop/p/sumka-portcase-9011-chernyi-108895248/?c=750000000",
+    "likes": 0
   },
   {
     "id": 2,
@@ -36,7 +38,8 @@ export class HomeComponent {
     "rating": 4,
     "descrip": "Характеристики Планшет Samsung Galaxy Tab A9+ 5G 11 дюйм 8 Гб/128 Гб серебристый",
     "delivery": true,
-    "linkKaspi": "https://kaspi.kz/shop/p/samsung-galaxy-tab-a9-5g-11-djuim-8-gb-128-gb-serebristyi-114175605/?c=750000000"
+    "linkKaspi": "https://kaspi.kz/shop/p/samsung-galaxy-tab-a9-5g-11-djuim-8-gb-128-gb-serebristyi-114175605/?c=750000000",
+    "likes": 0
   },
   {
     "id": 3,
@@ -45,7 +48,8 @@ export class HomeComponent {
     "rating": 4.5,
     "descrip": "Набор ресничек, из искусственного волокна, предназначен для наращивания",
     "delivery": true,
-    "linkKaspi": "https://kaspi.kz/shop/p/groinneya-tj01-puchkovye-c-0-03-mm-chernyi-10-mm-16-mm-122310719/?c=750000000"
+    "linkKaspi": "https://kaspi.kz/shop/p/groinneya-tj01-puchkovye-c-0-03-mm-chernyi-10-mm-16-mm-122310719/?c=750000000",
+    "likes": 0
   },
   {
     "id": 4,
@@ -54,7 +58,8 @@ export class HomeComponent {
     "rating": 5,
     "descrip": "Вы будете чётко слышать весь спектр — от глубоких, насыщенных басов до кристально чистых высоких нот.",
     "delivery": true,
-    "linkKaspi": "https://kaspi.kz/shop/p/apple-airpods-3-with-lightning-charging-case-belyi-106667987/?c=750000000"
+    "linkKaspi": "https://kaspi.kz/shop/p/apple-airpods-3-with-lightning-charging-case-belyi-106667987/?c=750000000",
+    "likes": 0
   },
   {
     "id": 5,
@@ -63,7 +68,8 @@ export class HomeComponent {
     "rating": 4,
     "descrip": "Практичный  диван-кровать с легкой системой трансформации",
     "delivery": true,
-    "linkKaspi": "https://kaspi.kz/shop/p/morbido-divan-prjamoi-komfort-obivka-mikroveljur-80h210h80-sm-seryi-109382996/?c=750000000"
+    "linkKaspi": "https://kaspi.kz/shop/p/morbido-divan-prjamoi-komfort-obivka-mikroveljur-80h210h80-sm-seryi-109382996/?c=750000000",
+    "likes": 0
   },
   {
     "id": 6,
@@ -72,7 +78,8 @@ export class HomeComponent {
     "rating": 5,
     "descrip": "Характеристики Мобильный телефон Nokia 216 Dual Sim черный",
     "delivery": true,
-    "linkKaspi": "https://kaspi.kz/shop/p/nokia-216-dual-sim-chernyi-8800313/?c=750000000"
+    "linkKaspi": "https://kaspi.kz/shop/p/nokia-216-dual-sim-chernyi-8800313/?c=750000000",
+    "likes": 0
   },
   {
     "id": 7,
@@ -81,7 +88,8 @@ export class HomeComponent {
     "rating": 5,
     "descrip": "Kingston’s NV3 PCIe 4.0 NVMe SSD — это новое решение для хранения данных на основе контроллера NVMe Gen 4x4",
     "delivery": true,
-    "linkKaspi": "https://kaspi.kz/shop/p/ssd-kingston-snv3s-1000g-1000-gb-123793481/?c=750000000"
+    "linkKaspi": "https://kaspi.kz/shop/p/ssd-kingston-snv3s-1000g-1000-gb-123793481/?c=750000000",
+    "likes": 0
   },
   {
     "id": 8,
@@ -90,7 +98,8 @@ export class HomeComponent {
     "rating": 4,
     "descrip": "Характеристики Умная колонка Яндекс Станция Лайт 2 фиолетовый",
     "delivery": true,
-    "linkKaspi": "https://kaspi.kz/shop/p/jandeks-stantsija-lait-2-fioletovyi-122679962/?c=750000000"
+    "linkKaspi": "https://kaspi.kz/shop/p/jandeks-stantsija-lait-2-fioletovyi-122679962/?c=750000000",
+    "likes": 0
   },
   {
     "id": 9,
@@ -99,7 +108,8 @@ export class HomeComponent {
     "rating": 4,
     "descrip": "Характеристики Наушники OEM Air pro 2 белый",
     "delivery": true,
-    "linkKaspi": "https://kaspi.kz/shop/p/oem-air-pro-2-belyi-118366664/?c=750000000"
+    "linkKaspi": "https://kaspi.kz/shop/p/oem-air-pro-2-belyi-118366664/?c=750000000",
+    "likes": 0
   },
 ];
 

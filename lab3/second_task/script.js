@@ -24,6 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
         deleteButton.textContent= 'Delete task';
         deleteButton.addEventListener('click', () =>{
             tasksList.removeChild(taskItem);
+            alert("Task Delete!");
         });
 
         taskItem.appendChild(checkBox);
@@ -40,53 +41,3 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     })
 });
-
-
-
-
-
-
-
-
-// document.addEventListener('DOMContentLoaded', () => {
-//     const input = document.getElementById('new_task');
-//     const addTaskButton = document.getElementById('add-task');
-//     const tasksList = document.getElementById("task-list");
-
-//     addTaskButton.addEventListener('click', (e) => {
-//         const taskText = input.ariaValueMax.trim();
-//         if(taskText === '') return;
-
-//         const taskItem = document.createElement('li');
-//         taskItem.className = 'task-item';
-
-//         const checBox = document.createElement('input');
-//         checBox.type = 'checkbox';
-//         checBox.addEventListener('change', () => {
-//             taskItem.classList.toggle('done');
-//         });
-
-//         const text = document.createElement('span');
-//         text.className = 'task-text';
-//         text.textContent = taskText;
-
-//         const deleteButton = document.createElement('button');
-//         deleteButton.textContent = 'Delete task';
-//         deleteButton.addEventListener('click', () => {
-//             tasksList.removeChild(taskItem);
-//         });
-
-//         taskItem.appendChild(checBox);
-//         taskItem.appendChild(text);
-//         taskItem.appendChild(deleteButton);
-
-//         tasksList.appendChild(taskItem);
-//         input.value = '';
-//     });
-
-//     input.addEventListener('keypress', (e) =>{
-//         if(e.key == 'Enter'){
-//             addTaskButton.click();
-//         }
-//     })
-// });

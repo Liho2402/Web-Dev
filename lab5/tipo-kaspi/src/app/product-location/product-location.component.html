@@ -1,13 +1,22 @@
-<section class="listing">
-    <img class="listing-photo" [src]="productLocation.photo" alt="Exterior photo of {{productLocation.name}}">
-    <h2 class="listing-heading">{{ productLocation.name }}</h2>
-    <p class="listing-information">⭐Rating: {{ productLocation.rating }}</p>
-    <p class="listing-information">Description: {{ productLocation.descrip }}</p>
-    <p class="listing-information"> Delivery: {{ productLocation.delivery }} </p>
-    <a [href]="productLocation.linkKaspi">Kaspi</a>
-    <a [href]="getEncodedWhatsAppLink()" target="_blank" class="share-link">Поделиться в WhatsApp</a>
-    <a [href]="getEncodedTelegramLink()" target="_blank" class="share-link">Поделиться в Telegram</a>
-    <!-- <button class="primary" type="button" (click)="shareOnWhatsApp(productLocation.linkKaspi)">Share to WhatsApp</button>
-    <button class="primary" type="button" (click)="shareOnTelegram(productLocation.linkKaspi)">Share to Telegram</button> -->
+<section class="listing" *ngIf="!isLiked()">
+  <img class="listing-photo" [src]="productLocation.photo" alt="Exterior photo of {{productLocation.name}}">
+  <h2 class="listing-heading">{{ productLocation.name }}</h2>
+  <p class="listing-information">⭐Rating: {{ productLocation.rating }}</p>
+  <p class="listing-information">Description: {{ productLocation.descrip }}</p>
+  <p class="listing-information">Delivery: {{ productLocation.delivery }}</p>
+  
+  <div class="listing-actions">
+    <div class="likes-container">
+      <button (click)="incrementLikes()" class="like-button">
+        <span class="heart-icon">❤️</span> Like
+      </button>
+      <span class="likes-count">{{ productLocation.likes || 0 }}</span>
+    </div>
     
+    <div class="share-buttons">
+      <a [href]="productLocation.linkKaspi" target="_blank" class="kaspi-link">Kaspi</a>
+      <a [href]="getEncodedWhatsAppLink()" target="_blank" class="share-link">Поделиться в WhatsApp</a>
+      <a [href]="getEncodedTelegramLink()" target="_blank" class="share-link">Поделиться в Telegram</a>
+    </div>
+  </div>
 </section>

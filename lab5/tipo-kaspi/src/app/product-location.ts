@@ -1,3 +1,5 @@
+import { BlobOptions } from "buffer";
+
 export interface ProductLocation {
     id: number,
     name: string,
@@ -6,4 +8,5 @@ export interface ProductLocation {
     linkKaspi: string,
     descrip: string,
     delivery: boolean,
+    likes: number
 }

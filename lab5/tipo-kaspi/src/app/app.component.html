@@ -1,10 +1,33 @@
 <main>
   <header class="brand-name">
-    <img class="" src="../assets/hotel-svgrepo-com.svg" alt="logo" aria-hidden="true">
-    <h2 id="name-logo">Product</h2>
-    <app-category></app-category>
+    <div class="logo-container">
+      <img src="../assets/hotel-svgrepo-com.svg" alt="logo" aria-hidden="true">
+      <h2 id="name-logo">Product</h2>
+    </div>
+
+    <ul class="nav-links">
+      <li>
+        <a href="/home">Home</a>
+      </li>
+      <li>
+        <a href="/health">Health</a>
+      </li>
+      <li>
+        <a href="/pc_device">PC Device</a>
+      </li>
+      <li>
+        <a href="/phone">Phone</a>
+      </li>
+      <li>
+        <a href="/school">School</a>
+      </li>
+      <li>
+        <a href="/likes">Likes</a>
+      </li>
+    </ul>
   </header>
   <section class="content">
-    <app-home></app-home>
+    <!-- <app-home></app-home> -->
+    <router-outlet></router-outlet>
   </section>
 </main>
